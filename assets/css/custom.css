@@ -105,3 +105,55 @@ body[data-contrast="less"] #bionReadSwitch:checked + label {
         backdrop-filter: unset;
     }
 }
+
+/* ============================================================
+   小波波律師事務所 - 標題修正 (SVG 最佳化)
+   ============================================================ */
+
+/* 1. 確保畫布不會裁切到文字上半部 */
+#logotype {
+    overflow: visible !important;   /* 允許內容溢出畫布，防止切頂 */
+    height: 35px !important;        /* 給予足夠的固定高度 */
+    display: block;
+}
+
+/* ============================================================
+   小波波律師事務所 - 標題自動配色修正 (隨黑白主題切換)
+   ============================================================ */
+
+#logotype__text {
+    /* 1. 顏色自動化：使用主題定義的前景顏色變數 */
+    /* 這樣在深色模式會是白色，淺色模式會自動變黑色 */
+    fill: var(--fg) !important;      
+    
+    /* 2. 移除所有干擾特效 */
+    text-shadow: none !important;
+    filter: none !important;
+    stroke: none !important;
+
+    /* 3. 強制粗體與渲染優化 */
+    font-weight: 800 !important; 
+    shape-rendering: geometricPrecision;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+
+    /* 4. 位置修正 (確保上半部不被切掉) */
+    y: 22pt !important; 
+}
+
+/* 5. 確保 Hover 時也遵循主題配色 */
+#logo:hover #logotype__text,
+#logotype:hover #logotype__text {
+    fill: var(--fg) !important;
+    filter: none !important;
+    text-shadow: none !important;
+    opacity: 1 !important;
+}
+
+
+/* 2. 如果你想直接隱藏那個「ZH-TW / 」的前綴 */
+/* 這需要精確定位，通常麵包屑的第一個元素是語系或首頁 */
+.breadcrumb li:first-child {
+    display: none; /* 如果 ZH-TW 是第一個元素，這可以隱藏它 */
+}
+

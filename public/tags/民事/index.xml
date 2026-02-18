@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+    <title>民事 on 小波波律師事務所</title>
+    <link>http://localhost:1313/tags/%E6%B0%91%E4%BA%8B/</link>
+    <description>最新文章 分類於 民事 發布於 小波波律師事務所</description>
+    <generator>Hugo 0.155.3</generator>
+    <language>zh-tw</language>
+    <managingEditor>email@example.com (Author Name)</managingEditor>
+    <webMaster>email@example.com (Author Name)</webMaster>
+    <lastBuildDate>Wed, 18 Feb 2026 16:36:31 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E6%B0%91%E4%BA%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【成功案例】惡房客欠租又失聯？律師協助強制執行，順利收回房屋</title>
+      <link>http://localhost:1313/categories/cases/case-civil-01/</link>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
+      <author>email@example.com (Author Name)</author>
+      <dc:creator>小波波 律師</dc:creator>
+      <guid>http://localhost:1313/categories/cases/case-civil-01/</guid>
+      <description>房客積欠房租超過半年且避不見面，律師透過訴訟取得勝訴判決，並聲請法院強制執行，成功點交房屋。</description>
+      <content:encoded>&lt;h2 id=&#34;案情簡介&#34;&gt;案情簡介&lt;/h2&gt;&#xA;&lt;p&gt;當事人陳房東（化名）將位於台北市區的公寓出租給一名房客。起初房客繳租正常，但半年後開始藉故拖延，最後甚至電話不接、訊息不讀，積欠租金累計達六個月以上。&lt;/p&gt;&#xA;&lt;p&gt;陳房東曾試圖自行上門理論，卻發現大門深鎖，又擔心自行換鎖會誤觸「強制罪」或「侵入住宅罪」的法律紅線，導致房屋被霸佔卻束手無策，因而委託本所協助處理。&lt;/p&gt;&#xA;&lt;h2 id=&#34;律師策略與辦案經過&#34;&gt;律師策略與辦案經過&lt;/h2&gt;&#xA;&lt;h3 id=&#34;第一步寄發存證信函-終止契約&#34;&gt;第一步：寄發存證信函 (終止契約)&lt;/h3&gt;&#xA;&lt;p&gt;法律程序講求證據。小波波律師首先協助發送「存證信函」，定相當期限催告房客支付租金。待期限一過，立即依《民法》第440條規定，發函通知「終止租賃契約」，讓房客喪失合法佔有權源。&lt;/p&gt;&#xA;&lt;h3 id=&#34;第二步提起遷讓房屋訴訟&#34;&gt;第二步：提起遷讓房屋訴訟&lt;/h3&gt;&#xA;&lt;p&gt;由於房客置之不理，我們隨即向法院提起「遷讓房屋」暨「給付積欠租金」之訴訟。&#xA;在法庭上，律師提出了完整的租約、匯款紀錄與存證信函回執，法官審理後，迅速判決陳房東&lt;strong&gt;勝訴&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;h3 id=&#34;第三步聲請強制執行&#34;&gt;第三步：聲請強制執行&lt;/h3&gt;&#xA;&lt;p&gt;取得勝訴判決後，房客依然賴著不走。律師立即向法院民事執行處聲請「強制執行」。&#xA;在法院書記官與管區員警的陪同下，請鎖匠現場開鎖。經清點屋內物品後，解除房客的佔有，正式將房屋點交歸還給陳房東。&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;// 辦案時間軸&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;1月：寄發存證信函催告&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;2月：正式提告&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;5月：取得勝訴判決 (被告未出庭，一造辯論判決)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;7月：現場強制執行點交&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded>
+      <category>案例分享</category>
+      <enclosure url="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80" length="0" type="image/jpeg" />
+    </item>
+  </channel>
+</rss>

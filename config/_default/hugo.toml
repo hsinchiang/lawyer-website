@@ -1,5 +1,5 @@
 ## Base URL for the site
-baseURL = 'https://foxihd.github.io/hugo-brewm/'
+baseURL = 'https://www.lawyer-bobo.com/'
 ## Site title
 title = 'Example'
 ## Use hugo-brewm theme
@@ -9,9 +9,11 @@ enableGitInfo = true
 ## Convert all URLs to absolute URLs
 canonifyURLs = true
 ## Default language for content
-defaultContentLanguage = 'en'
+defaultContentLanguage = 'zh-tw'
 ## Put default language in subdirectory
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
+
+
 ## Show placeholder for missing translations
 enableMissingTranslationPlaceholders = true
 ## Use sections for main menu
@@ -110,19 +112,19 @@ enableRobotsTXT = true
     ## Site description
     description = "An ExampleSite built with Hugo and Hugo-Brewm theme"
     ## Copyright notice
-    copyright = "Copyleft 2025 &copy; Author"
+    copyright = "© 2026 小波波律師"
     ## Hide "powered by hugo" on colophon
     # HideHugoCredit = true
     ## Enable extended metadata (social cards)
     extMeta = true
     ## Enable coffee metric
-    coffeeStat = true
+    coffeeStat = false
     ## Default social card image, recommended resolution: 1200 x 630px
     # images = "example.com/img/social-share.jpg"
     ## Do not block AI user agent for robot.txt
     AllowAIRobots = false
     ## or BearMode--Minimize clutter for small site; Disable breadcrumbs menu, share button, related posts, colophon and redaction history.
-    ZenMode = false
+    ZenMode = true
     ## Disable Black background on main-footer
     DisableFootBar = false
     ## Merge site license, footer menu and coffee stat
@@ -142,7 +144,7 @@ enableRobotsTXT = true
     ## Comments configuration
     [params.comments]
         ## Disable comments (disable fediverse comments)
-        disabled = false
+        disabled = true
         ## Comment platform selection, currently only 'fediverse' is supported, further options to be determined
         # platform = 'fediverse'
 
@@ -184,6 +186,8 @@ enableRobotsTXT = true
         disableListing = false
         ## Select taxonomy listing to be featured
         featuredListing = ['categories', 'series']
+        
+        
 
     ## Post display settings
     [params.posts]

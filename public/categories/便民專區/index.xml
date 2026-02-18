@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+    <title>便民專區 on 小波波律師事務所</title>
+    <link>http://localhost:1313/categories/%E4%BE%BF%E6%B0%91%E5%B0%88%E5%8D%80/</link>
+    <description>最新文章 分類於 便民專區 發布於 小波波律師事務所</description>
+    <generator>Hugo 0.155.3</generator>
+    <language>zh-tw</language>
+    <managingEditor>email@example.com (Author Name)</managingEditor>
+    <webMaster>email@example.com (Author Name)</webMaster>
+    <lastBuildDate>Tue, 17 Feb 2026 01:45:46 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/%E4%BE%BF%E6%B0%91%E5%B0%88%E5%8D%80/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>常用法律書狀範例下載</title>
+      <link>http://localhost:1313/categories/%E4%BE%BF%E6%B0%91%E5%B0%88%E5%8D%80/resource-download/</link>
+      <pubDate>Mon, 16 Feb 2026 00:00:00 +0000</pubDate>
+      <author>email@example.com (Author Name)</author>
+      <dc:creator>小波波 律師</dc:creator>
+      <guid>http://localhost:1313/categories/%E4%BE%BF%E6%B0%91%E5%B0%88%E5%8D%80/resource-download/</guid>
+      <description>工欲善其事，必先利其器。本所整理常用法律文件範本，免費提供下載。</description>
+      <content:encoded>&lt;p&gt;我們了解許多民眾希望能先自行嘗試處理簡單的法律事務。以下範本供您參考使用：&lt;/p&gt;&#xA;&lt;h3 id=&#34;-存證信函類&#34;&gt;📁 存證信函類&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/downloads/debt-notice.docx&#34;&gt;欠錢不還催告信範本 (.docx)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/downloads/lease-end.docx&#34;&gt;租約到期不再續約通知 (.docx)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;-契約與協議類&#34;&gt;📁 契約與協議類&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/downloads/car-accident-settlement.pdf&#34;&gt;一般車禍和解書 (.pdf)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/downloads/prenup-sample.pdf&#34;&gt;婚前協議書參考範本 (.pdf)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;免責聲明：&lt;/strong&gt; 範本僅供參考，具體個案仍建議諮詢律師後再行簽署。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;</content:encoded>
+      <category>便民專區</category>
+      <enclosure url="https://images.unsplash.com/photo-1562240020-ce31ccb0fa7d?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80" length="0" type="image/jpeg" />
+    </item>
+  </channel>
+</rss>

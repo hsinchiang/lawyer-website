@@ -7,27 +7,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mengatur Logo dan Aksen Warna | Contoh</title>
-<meta name="author" content="Author Name">
+<meta name="author" content="">
 <meta name="description" content="Cara mengatur Logo di tema Hugo Brewm" >
 <link rel="canonical" href="http://localhost:1313/hugo-brewm/id/pos/mengatur-logo-dan-aksen-warna/">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/hugo-brewm/en/post/configure-logo-and-accent-color/" title="English">
+<link rel="alternate" hreflang="zh-tw" href="http://localhost:1313/hugo-brewm/post/configure-logo-and-accent-color/" title="繁體中文"><link rel="alternate" hreflang="en" href="http://localhost:1313/hugo-brewm/en/post/configure-logo-and-accent-color/" title="English">
 
 
-    
-    <!-- twitterCard -->
-    
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Mengatur Logo dan Aksen Warna | Contoh" />
-    <meta name="twitter:description" content="Cara mengatur Logo di tema Hugo Brewm" />
-        <meta name="twitter:image" content="https://repository-images.githubusercontent.com/923527728/46a32a19-69ac-45b3-91a4-c4d299fb234b" />
-    
-    <!-- openGraph -->
-    <meta property="og:title" content="Mengatur Logo dan Aksen Warna | Contoh" />
-    <meta property="og:description" content="Cara mengatur Logo di tema Hugo Brewm" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="http://localhost:1313/hugo-brewm/id/pos/mengatur-logo-dan-aksen-warna/" />
-        <meta property="og:image" content="https://repository-images.githubusercontent.com/923527728/46a32a19-69ac-45b3-91a4-c4d299fb234b" />
-    <meta property="og:site_name" content="Contoh" />
     <!-- js.html -->
     <script src="http://localhost:1313/hugo-brewm/js/hugo-brewm.min.js" defer></script><!-- css.html -->
     <link rel="stylesheet" href="http://localhost:1313/hugo-brewm/css/hugo-brewm.min.css">
@@ -59,13 +44,6 @@
     </nav>
     
     <!-- logo.html -->
-    <div id="logo">
-        <a href="http://localhost:1313/hugo-brewm/id/" aria-label="Contoh" aria-description="Beranda"><svg id="logotype" xmlns="http://www.w3.org/2000/svg" version="1.1" width="168pt" aria-label="Contoh">
-                        <text id="logotype__text" y="19.5pt" x="0">Contoh</text>
-                    </svg>
-        </a>
-        <hr class="hide"/>
-    </div>
     
     <details class="presentation" id="top-nav">
         <summary class="on-deck">
@@ -115,60 +93,7 @@
                 </ul>
             </nav>
     </details>
-            <!-- search.html -->
-<details id="has-search" class="presentation js-details" name="on-deck">
-    <summary class="on-deck srm" accesskey="q" aria-labelledby="search-label" aria-keyshortcuts="q">
-        <span id="search-label" class="t srt">Cari</span>
-    </summary>
-    
-        <!-- pagefind.html -->
-    <div id="search" class="on-hull">
-        <div role="presentation" class="screening js-cgpn"></div>
-    </div>
-    <script src="http://localhost:1313/hugo-brewm/pagefind/pagefind-ui.js" type="text/javascript"></script>
-    <script>
-        let pageFindInitialized = false;
-        const initPageFind = function(event) {
-            if (!pageFindInitialized) {
-                new PagefindUI({
-                    element: "#search",
-                    showImages: false,
-                    translations: {
-                        placeholder: "Cari"
-                    }
-                });
-                
-                const pFInput = document.querySelector('.pagefind-ui__search-input');
-                if (pFInput) {
-                    pFInput.setAttribute('aria-label', pFInput.getAttribute('placeholder'));
-                    pFInput.setAttribute('name', pFInput.getAttribute('placeholder'));
-                }
-                pageFindInitialized = true;
-                document.removeEventListener('DOMContentLoaded', initPageFind);
-            }
-        };
-        document.addEventListener('DOMContentLoaded', initPageFind);
-    </script>
-        <noscript id="has-search-fallback" class="on-hull">
-                
-    <!-- duckduckgo.html -->
-    <form id="duckduckgo" class="form on-plank"
-        name="[i18n] seach" action="//duckduckgo.com/"
-        role="search" aria-label="Cari">
-        <input type="hidden" value="localhost:1313" name="sites"></input>
-        <input type="hidden" value="1" name="kh"></input>
-        <input type="hidden" value="1" name="kn"></input>
-        <input type="hidden" value="1" name="kac"></input>
-        <input class="ldots form__input" type="search" placeholder="Cari" name="q" role="searchbox"></input>
-        <button class="form__button" type="submit" aria-label="Cari">
-            <img src="https://duckduckgo.com/assets/logo_header.v109.svg" alt="Cari" role="presentation" aria-hidden="true">
-        </button>
-    </form>
-    <div role="presentation" class="screening js-cgpn"></div>
-        </noscript>
-    
-</details>
-
+            
             <!-- menu.html -->
             <!-- i18n.html -->
         <details id="has-i18n" class="presentation js-details srm" name="on-deck">
@@ -184,6 +109,12 @@
             <nav id="i18n-menu" aria-label="Pilihan Bahasa">
                 <ul class="on-plank">
                         <li>
+                            <a href="http://localhost:1313/hugo-brewm/" aria-label="Change language to 繁體中文">
+                                <span class="emoji">🇹🇼&nbsp;</span>
+                                <span class="languangeName">繁體中文</span>
+                            </a>
+                        </li>
+                        <li>
                             <a href="http://localhost:1313/hugo-brewm/en/" aria-label="Change language to English">
                                 <span class="emoji">🇬🇧&nbsp;</span>
                                 <span class="languangeName">English</span>
@@ -193,12 +124,6 @@
                             <a href="http://localhost:1313/hugo-brewm/es/" aria-label="Change language to Español">
                                 <span class="emoji">🇪🇸&nbsp;</span>
                                 <span class="languangeName">Español</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://localhost:1313/hugo-brewm/de/" aria-label="Change language to Deutsch">
-                                <span class="emoji">🇩🇪&nbsp;</span>
-                                <span class="languangeName">Deutsch</span>
                             </a>
                         </li>
                         <li>
@@ -217,6 +142,12 @@
                             <a href="http://localhost:1313/hugo-brewm/hi/" aria-label="Change language to हिन्दी">
                                 <span class="emoji">🇮🇳&nbsp;</span>
                                 <span class="languangeName">हिन्दी</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://localhost:1313/hugo-brewm/de/" aria-label="Change language to Deutsch">
+                                <span class="emoji">🇩🇪&nbsp;</span>
+                                <span class="languangeName">Deutsch</span>
                             </a>
                         </li>
                         <li>
@@ -246,11 +177,6 @@
                         data-i18n-print="Cetak"
                         data-i18n-copy="Salin Tautan"
                         data-i18n-copying="Menyalin...">
-                                <li>
-                                    <a id="navigatorShare" href="#mastodon" role="button" aria-label="Bagikan">
-                                        <span class="t srt" role="tooltip">Bagikan</span>
-                                    </a>
-                                </li>
                     </menu>
             <!-- nav.html -->
 <details class="presentation" aria-expanded="true" id="has-breadcrumb" open>
@@ -269,6 +195,12 @@
         </summary>
         <nav aria-label="Pilihan Bahasa">
             <ul class="on-plank" role="presentation">
+                <li>
+                    <a href="http://localhost:1313/hugo-brewm/post/configure-logo-and-accent-color/" aria-label="Ganti Bahasa ke 繁體中文" aria-description="Configure Logo and Accent Color">
+                        <span class="emoji">🇹🇼&nbsp;</span>
+                        <span>Configure Logo and Accent Color</span>
+                    </a>
+                </li>
                 <li>
                     <a href="http://localhost:1313/hugo-brewm/en/post/configure-logo-and-accent-color/" aria-label="Ganti Bahasa ke English" aria-description="Configure Logo and Accent Color">
                         <span class="emoji">🇬🇧&nbsp;</span>
@@ -305,14 +237,14 @@
                 data-pagefind-meta="title"
             data-bionRead-safe
             >Mengatur Logo dan Aksen Warna</h1>
-            <div id="doc-author" class="textsw"><span>Author Name</span>
+            <div id="doc-author" class="textsw">
             </div>
             <!-- timestamp.html-->
         <div id="timestamp">
             <span>Diterbitkan pada</span>
             <time datetime="2025-01-26T00:00:00&#43;00:00">26 Januari 2025</time>,
             <span>diubah pada</span>
-            <time datetime="2025-02-21T00:00:00&#43;00:00">21 Februari 2025</time>.
+            <time datetime="2026-02-14T19:28:06&#43;08:00">14 Februari 2026</time>.
         </div>
         </header>
         <!-- audio.html -->
@@ -321,34 +253,34 @@
 <h2 id="mengubah-aksen-warna">Mengubah Aksen Warna</h2>
 <p>Untuk membuat aksen warna sesuai dengan identitas merek Anda, Anda dapat menyesuaikan warna aksen di <code>custom.css</code> yang berada di dalam <code>assets/css</code>.
 Sebagai contoh, di <code>exampleSite/assets/css/custom.css</code>:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="p">:</span><span class="nd">root</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="c">/* default contrast */</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">--ac-light</span><span class="p">:</span> <span class="mh">#36c</span><span class="p">;</span>      <span class="c">/* warna aksen pada kontras default */</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">--fg-light</span><span class="p">:</span> <span class="mh">#111</span><span class="p">;</span>      <span class="c">/* warna latar depan pada kontras default */</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">--bg-light</span><span class="p">:</span> <span class="mh">#f9f9fb</span><span class="p">;</span> <span class="c">/* warna latar belakang pada kontras default */</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">--midtone</span><span class="p">:</span> <span class="kc">gray</span><span class="p">;</span>       <span class="c">/* warna midtone pada kontras default */</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">--fg-dark</span><span class="p">:</span> <span class="mh">#f9f9fb</span><span class="p">;</span>  <span class="c">/* warna latar depan pada mode gelap, kontras default */</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">--bg-dark</span><span class="p">:</span> <span class="mh">#111</span><span class="p">;</span>       <span class="c">/* warna latar belakang pada mode gelap, kontras default */</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">--ac-dark</span><span class="p">:</span> <span class="mh">#fa0</span><span class="p">;</span>       <span class="c">/* warna aksen pada mode gelap, kontras default */</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="c">/* less contrast */</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">--ac-light-less</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">ac</span><span class="o">-</span><span class="n">light</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">--fg-light-less</span><span class="p">:</span> <span class="mh">#13253d</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">--bg-light-less</span><span class="p">:</span> <span class="mh">#e7e2e2</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">--midtone-less</span><span class="p">:</span> <span class="mh">#7d8490</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">--fg-dark-less</span><span class="p">:</span> <span class="mh">#e7e2e2</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">--bg-dark-less</span><span class="p">:</span> <span class="mh">#13253d</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">--ac-dark-less</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">ac</span><span class="o">-</span><span class="n">dark</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="c">/* more contrast */</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">--ac-light-more</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">ac</span><span class="o">-</span><span class="n">light</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">--fg-light-more</span><span class="p">:</span> <span class="mh">#000</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">--bg-light-more</span><span class="p">:</span> <span class="mh">#fff</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">--midtone-more</span><span class="p">:</span> <span class="kc">gray</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">--fg-dark-more</span><span class="p">:</span> <span class="mh">#fff</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">--bg-dark-more</span><span class="p">:</span> <span class="mh">#000</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">--ac-dark-more</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">ac</span><span class="o">-</span><span class="n">dark</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-css" data-lang="css"><span style="display:flex;"><span>:<span style="color:#a6e22e">root</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">/* default contrast */</span>
+</span></span><span style="display:flex;"><span>    --ac-light: <span style="color:#ae81ff">#36c</span>;      <span style="color:#75715e">/* warna aksen pada kontras default */</span>
+</span></span><span style="display:flex;"><span>    --fg-light: <span style="color:#ae81ff">#111</span>;      <span style="color:#75715e">/* warna latar depan pada kontras default */</span>
+</span></span><span style="display:flex;"><span>    --bg-light: <span style="color:#ae81ff">#f9f9fb</span>; <span style="color:#75715e">/* warna latar belakang pada kontras default */</span>
+</span></span><span style="display:flex;"><span>    --midtone: <span style="color:#66d9ef">gray</span>;       <span style="color:#75715e">/* warna midtone pada kontras default */</span>
+</span></span><span style="display:flex;"><span>    --fg-dark: <span style="color:#ae81ff">#f9f9fb</span>;  <span style="color:#75715e">/* warna latar depan pada mode gelap, kontras default */</span>
+</span></span><span style="display:flex;"><span>    --bg-dark: <span style="color:#ae81ff">#111</span>;       <span style="color:#75715e">/* warna latar belakang pada mode gelap, kontras default */</span>
+</span></span><span style="display:flex;"><span>    --ac-dark: <span style="color:#ae81ff">#fa0</span>;       <span style="color:#75715e">/* warna aksen pada mode gelap, kontras default */</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">/* less contrast */</span>
+</span></span><span style="display:flex;"><span>    --ac-light-less: <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>ac<span style="color:#f92672">-</span>light);
+</span></span><span style="display:flex;"><span>    --fg-light-less: <span style="color:#ae81ff">#13253d</span>;
+</span></span><span style="display:flex;"><span>    --bg-light-less: <span style="color:#ae81ff">#e7e2e2</span>;
+</span></span><span style="display:flex;"><span>    --midtone-less: <span style="color:#ae81ff">#7d8490</span>;
+</span></span><span style="display:flex;"><span>    --fg-dark-less: <span style="color:#ae81ff">#e7e2e2</span>;
+</span></span><span style="display:flex;"><span>    --bg-dark-less: <span style="color:#ae81ff">#13253d</span>;
+</span></span><span style="display:flex;"><span>    --ac-dark-less: <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>ac<span style="color:#f92672">-</span>dark);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">/* more contrast */</span>
+</span></span><span style="display:flex;"><span>    --ac-light-more: <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>ac<span style="color:#f92672">-</span>light);
+</span></span><span style="display:flex;"><span>    --fg-light-more: <span style="color:#ae81ff">#000</span>;
+</span></span><span style="display:flex;"><span>    --bg-light-more: <span style="color:#ae81ff">#fff</span>;
+</span></span><span style="display:flex;"><span>    --midtone-more: <span style="color:#66d9ef">gray</span>;
+</span></span><span style="display:flex;"><span>    --fg-dark-more: <span style="color:#ae81ff">#fff</span>;
+</span></span><span style="display:flex;"><span>    --bg-dark-more: <span style="color:#ae81ff">#000</span>;
+</span></span><span style="display:flex;"><span>    --ac-dark-more: <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>ac<span style="color:#f92672">-</span>dark);
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>File ini akan menggantikan custom.css dalam tema. Untuk menghindari hilangnya variabel warna selama pembuatan, harap salin setiap variabel dan jangan hapus apa pun selain komentar.</p>
 <h2 id="menambahkan-gambar-logo--ikon-logomark">Menambahkan Gambar Logo / Ikon LogoMark</h2>
 <blockquote>
@@ -361,13 +293,13 @@ Sebagai contoh, di <code>exampleSite/assets/css/custom.css</code>:</p>
 </ul>
 </blockquote>
 <p>Atur logo(mark) di konfigurasi situs Anda:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[</span><span class="nx">params</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">logoMark</span> <span class="p">=</span> <span class="s1">&#39;https://example.com/logoMark.svg&#39;</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">logoMarkDark</span> <span class="p">=</span> <span class="s1">&#39;https://example.com/logoMarkDark.svg&#39;</span> <span class="c">#opsional</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>[<span style="color:#a6e22e">params</span>]
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">logoMark</span> = <span style="color:#e6db74">&#39;https://example.com/logoMark.svg&#39;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">logoMarkDark</span> = <span style="color:#e6db74">&#39;https://example.com/logoMarkDark.svg&#39;</span> <span style="color:#75715e">#opsional</span>
 </span></span></code></pre></div><h2 id="menggunakan-preset-logo-type">Menggunakan Preset Logo Type</h2>
 <p>Jika Anda lebih suka tidak menggunakan logo gambar, Anda dapat mengaktifkan logo berbasis teks bawaan dengan menambahkan pengaturan ini:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[</span><span class="nx">params</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">logoType</span> <span class="p">=</span> <span class="kc">true</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>[<span style="color:#a6e22e">params</span>]
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">logoType</span> = <span style="color:#66d9ef">true</span>
 </span></span></code></pre></div><p>Setelah membuat perubahan ini, bangun ulang situs Anda untuk melihat logo yang diperbarui. Logo akan secara otomatis muncul di header situs dan akan responsif di berbagai ukuran perangkat.</p>
 
         </section>
@@ -379,19 +311,6 @@ Sebagai contoh, di <code>exampleSite/assets/css/custom.css</code>:</p>
     <div class="pagewidth">
         <hr />
         <div id="contentinfo" role="contentinfo" data-pagefind-ignore="all">
-                    <!-- related.html -->
-                    <!-- colophon.html -->
-    <div id="colophon" style="display: none;" aria-live="polite">
-        <strong class="section-title">Kolofon</strong>
-        <div>
-            <div id="qr" role="img" aria-label="QR code"></div>
-            <div>
-                <div class="has-aria-label-top" aria-label="Mengatur Logo dan Aksen Warna"><span>http://localhost:1313/hugo-brewm/id/pos/mengatur-logo-dan-aksen-warna/</span></div>
-                <div><span>Halaman ini dibuat pada: </span><time datetime="2026-02-14T19:23:38&#43;08:00">2026-02-14 19:23</time></div>
-                <div><span>Halaman ini diakses pada: </span><time id="time-stamp"></time></div><div><span>Didukung oleh </span><a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <a href="https://github.com/gohugoio/hugo/releases/tag/v0.155.3" aria-label="Hugo 0.155.3" target="_blank" rel="noopener">v0.155.3</a> & <a href="https://github.com/foxihd/hugo-brewm" target="_blank" rel="noopener">hugo-brewm</a>.</div>
-            </div>
-        </div>
-    </div>
                     <!-- history.html -->
         <div id="has-timeline" >
             <strong class="section-title">Riwayat Redaksi</strong>
@@ -401,138 +320,18 @@ Sebagai contoh, di <code>exampleSite/assets/css/custom.css</code>:</p>
                     <span>(Diterbitkan)</span>
                 </li>
                 <li>
-                    <time datetime="2025-02-21T00:00:00&#43;00:00">21 Februari 2025</time>
+                    <time datetime="2026-02-14T19:28:06&#43;08:00">14 Februari 2026</time>
                     <span>(Diubah)</span>
                 </li>
             </ol>
             <p>Beberapa informasi mungkin berubah, kami menjaga redaksi tetap sejalan dengan perkembangan.</p>
         </div>
                 
-                <!-- nav.html -->
-<details class="presentation" aria-expanded="true" id="has-share" open>
-    <summary id="share" tabindex="-1">
-        <span>Bagikan</span>
-    </summary>
-        <nav aria-labelledby="share">
-            <ul role="presentation" class="share srm">
-                    <!-- share.html -->
-    <li id="has-mastodon">
-        <!-- mastodon.html -->
-    <form class="form" id="mastodon" action="//sharetomastodon.github.io/" target="_blank" rel="noopener noreferrer">
-        <input id="mastodonTitle" type="hidden" name="title" value="Mengatur Logo dan Aksen Warna">
-        <input id="mastodonPermalink" type="hidden" name="url" value="http://localhost:1313/hugo-brewm/id/pos/mengatur-logo-dan-aksen-warna/">
-        <input id="mastodonText" type="hidden" name="text" value="Mengatur Logo dan Aksen Warna http://localhost:1313/hugo-brewm/id/pos/mengatur-logo-dan-aksen-warna/" disabled>
-        <input id="mastodonInstance" type="url" class="ldots form__input" placeholder="Enter Mastodon instance (https://www.example.com)" aria-label="Mastodon instance URL">
-        <button class="form__button" type="submit" aria-label="Bagikan di Mastodon">
-            <i class="icon mastodon sri" aria-hidden="true"></i>
-            <span class="t srt" role="tooltip">Bagikan di Mastodon</span>
-        </button>
-    </form>
-    </li>
-    <li>
-        <a href="mailto:?subject=Mengatur%20Logo%20dan%20Aksen%20Warna&body=http%3a%2f%2flocalhost%3a1313%2fhugo-brewm%2fid%2fpos%2fmengatur-logo-dan-aksen-warna%2f" role="button" aria-label="Bagikan di Surel">
-            <i class="email sri" aria-hidden="true"></i>
-            <span class="t srt" role="tooltip">Bagikan di Surel</span>
-        </a>
-    </li>
-    <li>
-        <a href="whatsapp://send?text=Mengatur%20Logo%20dan%20Aksen%20Warna%20http%3a%2f%2flocalhost%3a1313%2fhugo-brewm%2fid%2fpos%2fmengatur-logo-dan-aksen-warna%2f" role="button" aria-label="Bagikan di Whatsapp">
-            <i class="whatsapp sri" aria-hidden="true"></i>
-            <span class="t srt" role="tooltip">Bagikan di Whatsapp</span>
-        </a>
-    </li>
-    <li>
-        <a rel="noopener noreferrer" target="_blank" href="https://telegram.me/share/url?text=Mengatur%20Logo%20dan%20Aksen%20Warna&amp;url=http://localhost:1313/hugo-brewm/id/pos/mengatur-logo-dan-aksen-warna/" role="button"
-            aria-label="Bagikan di Telegram Di tab baru">
-            <i class="telegram sri" aria-hidden="true"></i>
-            <span class="t srt" role="tooltip">Bagikan di Telegram</span>
-        </a>
-    </li>
-    <li>
-        <a rel="noopener noreferrer" target="_blank" href="https://bsky.app/intent/compose?text=Mengatur%20Logo%20dan%20Aksen%20Warna&amp;url=http://localhost:1313/hugo-brewm/id/pos/mengatur-logo-dan-aksen-warna/" role="button"
-            aria-label="Bagikan di Bluesky Di tab baru">
-            <i class="bluesky sri" aria-hidden="true"></i>
-            <span class="t srt" role="tooltip">Bagikan di Bluesky</span>
-        </a>
-    </li>
-    <li>
-        <a rel="noopener noreferrer" target="_blank" href="https://facebook.com/sharer/sharer.php?u=http://localhost:1313/hugo-brewm/id/pos/mengatur-logo-dan-aksen-warna/" role="button"
-            aria-label="Bagikan di Facebook Di tab baru">
-            <i class="facebook sri" aria-hidden="true"></i>
-            <span class="t srt" role="tooltip">Bagikan di Facebook</span>
-        </a>
-    </li>
-    <li>
-        <a rel="noopener noreferrer" target="_blank" href="https://news.ycombinator.com/submitlink?u=http://localhost:1313/hugo-brewm/id/pos/mengatur-logo-dan-aksen-warna/&amp;t=Mengatur%20Logo%20dan%20Aksen%20Warna" role="button"
-            aria-label="Bagikan di Hackernews Di tab baru">
-            <i class="hackernews sri" aria-hidden="true"></i>
-            <span class="t srt" role="tooltip">Bagikan di Hackernews</span>
-        </a>
-    </li>
-    <li>
-        <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:1313/hugo-brewm/id/pos/mengatur-logo-dan-aksen-warna/&amp;title=Mengatur%20Logo%20dan%20Aksen%20Warna&amp;summary=Mengatur%20Logo%20dan%20Aksen%20Warna&amp;source=http://localhost:1313/hugo-brewm/id/pos/mengatur-logo-dan-aksen-warna/" role="button"
-            aria-label="Bagikan di Linkedin Di tab baru">
-            <i class="linkedin sri" aria-hidden="true"></i>
-            <span class="t srt" role="tooltip">Bagikan di Linkedin</span>
-        </a>
-    </li>
-    <li>
-        <a rel="noopener noreferrer" target="_blank" href="https://pinterest.com/pin/create/button/?url=http://localhost:1313/hugo-brewm/id/pos/mengatur-logo-dan-aksen-warna/&amp;media=http://localhost:1313/hugo-brewm/id/pos/mengatur-logo-dan-aksen-warna/&amp;description=Mengatur%20Logo%20dan%20Aksen%20Warna" role="button"
-            aria-label="Bagikan di Pinterest Di tab baru">
-            <i class="pinterest sri" aria-hidden="true"></i>
-            <span class="t srt" role="tooltip">Bagikan di Pinterest</span>
-        </a>
-    </li>
-    <li>
-        <a rel="noopener noreferrer" target="_blank" href="https://reddit.com/submit/?url=http://localhost:1313/hugo-brewm/id/pos/mengatur-logo-dan-aksen-warna/&amp;resubmit=true&amp;title=Mengatur%20Logo%20dan%20Aksen%20Warna" role="button"
-            aria-label="Bagikan di Reddit Di tab baru">
-            <i class="reddit sri" aria-hidden="true"></i>
-            <span class="t srt" role="tooltip">Bagikan di Reddit</span>
-        </a>
-    </li>
-    <li>
-        <a rel="noopener noreferrer" target="_blank" href="https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title=Mengatur%20Logo%20dan%20Aksen%20Warna&amp;caption=Mengatur%20Logo%20dan%20Aksen%20Warna&amp;content=http://localhost:1313/hugo-brewm/id/pos/mengatur-logo-dan-aksen-warna/&amp;canonicalUrl=http://localhost:1313/hugo-brewm/id/pos/mengatur-logo-dan-aksen-warna/" role="button"
-            aria-label="Bagikan di Tumblr Di tab baru">
-            <i class="tumblr sri" aria-hidden="true"></i>
-            <span class="t srt" role="tooltip">Bagikan di Tumblr</span>
-        </a>
-    </li>
-    <li>
-        <a rel="noopener noreferrer" target="_blank" href="https://threads.net/intent/post?text=Mengatur%20Logo%20dan%20Aksen%20Warna&amp;url=http://localhost:1313/hugo-brewm/id/pos/mengatur-logo-dan-aksen-warna/" role="button"
-            aria-label="Bagikan di Threads Di tab baru">
-            <i class="threads sri" aria-hidden="true"></i>
-            <span class="t srt" role="tooltip">Bagikan di Threads</span>
-        </a>
-    </li>
-    <li>
-        <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/intent/tweet/?text=Mengatur%20Logo%20dan%20Aksen%20Warna&amp;url=http://localhost:1313/hugo-brewm/id/pos/mengatur-logo-dan-aksen-warna/" role="button"
-            aria-label="Bagikan di Twitter Di tab baru">
-            <i class="twitter sri" aria-hidden="true"></i>
-            <span class="t srt" role="tooltip">Bagikan di Twitter</span>
-        </a>
-    </li>
-    <li>
-        <a rel="noopener noreferrer" target="_blank" href="https://www.xing.com/app/user?op=share;url=http://localhost:1313/hugo-brewm/id/pos/mengatur-logo-dan-aksen-warna/;title=Mengatur%20Logo%20dan%20Aksen%20Warna" role="button"
-            aria-label="Bagikan di Xing Di tab baru">
-            <i class="xing sri" aria-hidden="true"></i>
-            <span class="t srt" role="tooltip">Bagikan di Xing</span>
-        </a>
-    </li>
-            </ul>
-        </nav>
-</details>
         </div>
         
             
     </div>
         <!-- main/footer.html -->
-    <hr class="hide">
-    <footer id="main-footer">
-            <div id="unified-footer"><p id="license">Penyusun <i class="icon copyleft"></i> 2025</p>
-                    <!-- menu.html -->
-                        <p id="coffee-counter">Dibuat dengan ❤️ dan  18 Cangkir kopi, jika tidak lebih.</p>
-            </div>
-    </footer>
         </div>
     </main>
     <!-- footer.html -->

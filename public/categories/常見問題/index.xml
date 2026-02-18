@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+    <title>常見問題 on 小波波律師事務所</title>
+    <link>http://localhost:1313/categories/%E5%B8%B8%E8%A6%8B%E5%95%8F%E9%A1%8C/</link>
+    <description>最新文章 分類於 常見問題 發布於 小波波律師事務所</description>
+    <generator>Hugo 0.155.3</generator>
+    <language>zh-tw</language>
+    <managingEditor>email@example.com (Author Name)</managingEditor>
+    <webMaster>email@example.com (Author Name)</webMaster>
+    <lastBuildDate>Tue, 17 Feb 2026 01:45:54 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/%E5%B8%B8%E8%A6%8B%E5%95%8F%E9%A1%8C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【常見問題】諮詢費用、流程與注意事項懶人包</title>
+      <link>http://localhost:1313/categories/%E5%B8%B8%E8%A6%8B%E5%95%8F%E9%A1%8C/faq-general/</link>
+      <pubDate>Mon, 16 Feb 2026 00:00:00 +0000</pubDate>
+      <author>email@example.com (Author Name)</author>
+      <dc:creator>小波波 律師</dc:creator>
+      <guid>http://localhost:1313/categories/%E5%B8%B8%E8%A6%8B%E5%95%8F%E9%A1%8C/faq-general/</guid>
+      <description>第一次找律師嗎？這裡整理了大家最常問的 10 個問題，幫您快速解惑。</description>
+      <content:encoded>&lt;h2 id=&#34;q1請問諮詢需要費用嗎&#34;&gt;Q1：請問諮詢需要費用嗎？&lt;/h2&gt;&#xA;&lt;p&gt;我們提供 &lt;strong&gt;首次 15 分鐘免費電話評估&lt;/strong&gt;。若需進一步面談或深入研析案情，收費標準為每小時 NT$ 3,000 元。若後續正式委任，諮詢費可全額折抵。&lt;/p&gt;&#xA;&lt;h2 id=&#34;q2官司大概要打多久&#34;&gt;Q2：官司大概要打多久？&lt;/h2&gt;&#xA;&lt;p&gt;這視案件複雜度而定。一般簡易案件約 3~6 個月，普通程序可能需 8 個月至 1 年以上。我們會盡力協助您爭取最有效率的解決方案。&lt;/p&gt;&#xA;&lt;h2 id=&#34;q3我不在台北可以委任你們嗎&#34;&gt;Q3：我不在台北，可以委任你們嗎？&lt;/h2&gt;&#xA;&lt;p&gt;沒問題！我們承接全台灣的案件。現在法院多已數位化，且我們可透過視訊會議與您討論案情，距離不是問題。&lt;/p&gt;&#xA;</content:encoded>
+      <category>常見問題</category>
+    </item>
+  </channel>
+</rss>

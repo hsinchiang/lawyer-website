@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+    <title>小波波 on 小波波律師事務所</title>
+    <link>http://localhost:1313/author/%E5%B0%8F%E6%B3%A2%E6%B3%A2/</link>
+    <description>最新文章 分類於： 小波波 [i18n] on 小波波律師事務所</description>
+    <generator>Hugo 0.155.3</generator>
+    <language>zh-tw</language>
+    <managingEditor>email@example.com (Author Name)</managingEditor>
+    <webMaster>email@example.com (Author Name)</webMaster>
+    <lastBuildDate>Mon, 16 Feb 2026 22:49:50 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/author/%E5%B0%8F%E6%B3%A2%E6%B3%A2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>關於律師</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <author>email@example.com (Author Name)</author>
+      <dc:creator>小波波</dc:creator>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h1 id=&#34;主持律師小波波&#34;&gt;主持律師：小波波&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/lawyer.jpg&#34; alt=&#34;律師形象照&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;span class=&#34;letterine&#34;&gt;&lt;i style=&#34;font-size: 3rem;&#34;&gt;十&lt;/i&gt;年磨一劍。&lt;/span&gt;&#xA;小波波律師畢業於國立台灣大學法律系，曾任職於大型法律事務所與地方法院法官助理，擁有豐富的實務經驗。&lt;/p&gt;&#xA;&lt;h3 id=&#34;學歷&#34;&gt;學歷&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;國立台灣大學 法律學系 法學士&lt;/li&gt;&#xA;&lt;li&gt;國立政治大學 法律研究所 民法組 碩士&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;經歷&#34;&gt;經歷&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;台北地方法院 法官助理&lt;/li&gt;&#xA;&lt;li&gt;萬國法律事務所 實習律師&lt;/li&gt;&#xA;&lt;li&gt;財團法人法律扶助基金會 扶助律師&lt;/li&gt;&#xA;&lt;li&gt;台北律師公會 民事程序法委員會 委員&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;專業證照&#34;&gt;專業證照&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;中華民國律師高考及格 (榜首)&lt;/li&gt;&#xA;&lt;li&gt;專利代理人資格&lt;/li&gt;&#xA;&lt;li&gt;多益金色證書 (TOEIC 950)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xD;&#xA;&lt;span role=&#34;presentation&#34; id=&#34;執業理念&#34;&gt;&lt;/span&gt;&#xD;&#xA;&lt;style&gt;&#xD;&#xA;    #執業理念 {&#xD;&#xA;        counter-reset: 執業理念;&#xD;&#xA;    }&#xD;&#xA;    .執業理念::after {&#xD;&#xA;        counter-increment: 執業理念;&#xD;&#xA;        content: &#39; &#39; counter(執業理念) &#39;. &#39;;&#xD;&#xA;    }&#xD;&#xA;&lt;/style&gt;&#xD;&#xA;&lt;blockquote role=&#34;complementary&#34;&gt;&#xD;&#xA;    &lt;span class=&#34;執業理念 textssc&#34; role=&#34;heading&#34;&gt;執業理念&lt;/span&gt;&#xD;&#xA;    法律不只是冰冷的條文，更是解決問題的工具。我希望能用最淺顯易懂的語言，讓當事人理解自己的處境，並爭取最大的權益。&#xD;&#xA;&lt;/blockquote&gt;</description>
+      <content:encoded>&lt;h1 id=&#34;主持律師小波波&#34;&gt;主持律師：小波波&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/lawyer.jpg&#34; alt=&#34;律師形象照&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;span class=&#34;letterine&#34;&gt;&lt;i style=&#34;font-size: 3rem;&#34;&gt;十&lt;/i&gt;年磨一劍。&lt;/span&gt;&#xA;小波波律師畢業於國立台灣大學法律系，曾任職於大型法律事務所與地方法院法官助理，擁有豐富的實務經驗。&lt;/p&gt;&#xA;&lt;h3 id=&#34;學歷&#34;&gt;學歷&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;國立台灣大學 法律學系 法學士&lt;/li&gt;&#xA;&lt;li&gt;國立政治大學 法律研究所 民法組 碩士&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;經歷&#34;&gt;經歷&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;台北地方法院 法官助理&lt;/li&gt;&#xA;&lt;li&gt;萬國法律事務所 實習律師&lt;/li&gt;&#xA;&lt;li&gt;財團法人法律扶助基金會 扶助律師&lt;/li&gt;&#xA;&lt;li&gt;台北律師公會 民事程序法委員會 委員&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;專業證照&#34;&gt;專業證照&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;中華民國律師高考及格 (榜首)&lt;/li&gt;&#xA;&lt;li&gt;專利代理人資格&lt;/li&gt;&#xA;&lt;li&gt;多益金色證書 (TOEIC 950)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xD;&#xA;&lt;span role=&#34;presentation&#34; id=&#34;執業理念&#34;&gt;&lt;/span&gt;&#xD;&#xA;&lt;style&gt;&#xD;&#xA;    #執業理念 {&#xD;&#xA;        counter-reset: 執業理念;&#xD;&#xA;    }&#xD;&#xA;    .執業理念::after {&#xD;&#xA;        counter-increment: 執業理念;&#xD;&#xA;        content: &#39; &#39; counter(執業理念) &#39;. &#39;;&#xD;&#xA;    }&#xD;&#xA;&lt;/style&gt;&#xD;&#xA;&lt;blockquote role=&#34;complementary&#34;&gt;&#xD;&#xA;    &lt;span class=&#34;執業理念 textssc&#34; role=&#34;heading&#34;&gt;執業理念&lt;/span&gt;&#xD;&#xA;    法律不只是冰冷的條文，更是解決問題的工具。我希望能用最淺顯易懂的語言，讓當事人理解自己的處境，並爭取最大的權益。&#xD;&#xA;&lt;/blockquote&gt;&#xA;</content:encoded>
+    </item>
+  </channel>
+</rss>

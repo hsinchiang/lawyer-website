@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="zh-tw" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - 找不到頁面</title>
+    <meta http-equiv="refresh" content="15;url=http://localhost:1313/">
+    <!-- css.html -->
+    <link rel="stylesheet" href="http://localhost:1313/css/hugo-brewm.min.css">
+
+
+<style>
+        h1 {--anm: fade 15s forwards;-webkit-animation: var(--anm);-moz-animation: var(--anm);-o-animation: var(--anm);animation: var(--anm);font-size: 5rem;}
+        h1::after {font-size: 2rem}
+        @keyframes fade {0% {opacity: 1} 100% {opacity: 0}}
+        @-webkit-keyframes fade {0% {opacity: 1} 100% {opacity: 0}}
+    </style>
+</head>
+<body id="page404">
+    <!-- header.html -->
+<header class="pagewidth">
+    <div id="background-header" class="background" aria-hidden="true"></div>
+    
+    <nav aria-label="跳過">
+        <a id="to-content" href="#list-posts" aria-label="跳至主內容">
+            <span>跳至主內容</span>
+            <kbd class="key" aria-hidden="true" data-key="c"></kbd>
+            <span class="screening" aria-hidden="true"></span>
+        </a>
+    </nav>
+    
+    <!-- logo.html -->
+    <div id="logo">
+        <a href="http://localhost:1313/" aria-label="小波波律師事務所" aria-description="首頁"><svg id="logotype" xmlns="http://www.w3.org/2000/svg" version="1.1" width="672pt" aria-label="小波波律師事務所">
+                        <text id="logotype__text" y="19.5pt" x="0">小波波律師事務所</text>
+                    </svg>
+        </a>
+        <hr class="hide"/>
+    </div>
+    
+    <details class="presentation" id="top-nav">
+        <summary class="on-deck">
+            <span class="t">導覽</span>
+            <span class="menu-icon" role="presentation"></span>
+        </summary>
+        <nav tabindex="-1" aria-label="頂部">
+            <!-- menu.html -->
+    <details id="has-main-menu" class="presentation" open>
+        <summary  class="hide"  aria-label="主選單">
+            <span>主選單</span>
+        </summary>
+            
+            <nav id="main-menu" aria-label="主選單">
+                <ul class="l1   has-childfree " role="presentation" tabindex="-1" >
+                    
+    
+        <li role="presentation" >
+    <a   class=on-deck href=http://localhost:1313/about/
+
+        >
+        
+            <span>
+                關於律師</span>
+    </a>
+        </li>
+        <li role="presentation" >
+    <a   class=on-deck href=http://localhost:1313/services/
+
+        >
+        
+            <span>
+                服務項目</span>
+    </a>
+        </li>
+        <li role="presentation" >
+    <a   class=on-deck href=http://localhost:1313/contact/
+
+        >
+        
+            <span>
+                聯絡我們</span>
+    </a>
+        </li>
+                </ul>
+            </nav>
+    </details>
+            <!-- search.html -->
+<details id="has-search" class="presentation js-details" name="on-deck">
+    <summary class="on-deck srm" accesskey="q" aria-labelledby="search-label" aria-keyshortcuts="q">
+        <span id="search-label" class="t srt">搜尋</span>
+    </summary>
+    
+        <!-- pagefind.html -->
+    <div id="search" class="on-hull">
+        <div role="presentation" class="screening js-cgpn"></div>
+    </div>
+    <script src="http://localhost:1313/pagefind/pagefind-ui.js" type="text/javascript"></script>
+    <script>
+        let pageFindInitialized = false;
+        const initPageFind = function(event) {
+            if (!pageFindInitialized) {
+                new PagefindUI({
+                    element: "#search",
+                    showImages: false,
+                    translations: {
+                        placeholder: "搜尋"
+                    }
+                });
+                
+                const pFInput = document.querySelector('.pagefind-ui__search-input');
+                if (pFInput) {
+                    pFInput.setAttribute('aria-label', pFInput.getAttribute('placeholder'));
+                    pFInput.setAttribute('name', pFInput.getAttribute('placeholder'));
+                }
+                pageFindInitialized = true;
+                document.removeEventListener('DOMContentLoaded', initPageFind);
+            }
+        };
+        document.addEventListener('DOMContentLoaded', initPageFind);
+    </script>
+        <noscript id="has-search-fallback" class="on-hull">
+                
+    <!-- duckduckgo.html -->
+    <form id="duckduckgo" class="form on-plank"
+        name="[i18n] seach" action="//duckduckgo.com/"
+        role="search" aria-label="搜尋">
+        <input type="hidden" value="localhost:1313" name="sites"></input>
+        <input type="hidden" value="1" name="kh"></input>
+        <input type="hidden" value="1" name="kn"></input>
+        <input type="hidden" value="1" name="kac"></input>
+        <input class="ldots form__input" type="search" placeholder="搜尋" name="q" role="searchbox"></input>
+        <button class="form__button" type="submit" aria-label="搜尋">
+            <img src="https://duckduckgo.com/assets/logo_header.v109.svg" alt="搜尋" role="presentation" aria-hidden="true">
+        </button>
+    </form>
+    <div role="presentation" class="screening js-cgpn"></div>
+        </noscript>
+    
+</details>
+
+            <!-- menu.html -->
+            <!-- i18n.html -->
+            <nav id="bi18n" aria-label="切換語言">
+                <a id="has-i18n" class="on-deck"
+                    href="http://localhost:1313/en/"
+                    aria-label="將語言切換至 English"
+                    aria-description="目前語言為 繁體中文">
+                    <span class="emoji">🇺🇸&nbsp;</span>
+                    <span class="act iso639 sri" aria-hidden="true">ZH</span>
+                    <span class="alt iso639 sri" aria-hidden="true">&rarr; EN</span>
+                    <span class="t srt languangeName">English</span>
+                </a>
+            </nav>
+
+        </nav>
+        <div id="top-nav-screen" class="screening js-cpn" role="presentation" aria-hidden="true"></div>
+        <hr class="hide"/>
+    </details>
+</header>
+    <main class="pagewidth" style="display: flex; flex-direction: column; min-height: var(--vbody);">
+        <div class="textwidth" style="margin:auto;">
+            <h1 class="has-aria-label" aria-label="找不到頁面">404</h1>
+            <p role="alert">此頁面已自動導向 <a href="http://localhost:1313/" class="loading">返回首頁</a></p>
+        </div>
+    </main>
+    <!-- footer.html -->
+<footer id="body-footer" class="pagewidth">
+    <div id="background-footer" class="background hide" role="presentation" aria-hidden="true"></div>
+    <div id="focusMode"></div>
+    <!-- a11y.html --><details id="has-a11y" class="presentation js-details hide" name="on-deck" aria-haspopup="true" aria-labelledby="has-a11y-summary"
+    data-i18n-accessibility="輔助功能"
+    data-i18n-optimizeSR="螢幕閱讀器優化"
+    data-i18n-optimizeSRdesc="針對使用指向設備的螢幕閱讀器使用者進行顯示優化。"
+    data-i18n-colorSettings="色彩設定"
+    data-i18n-darkMode="深色模式"
+    data-i18n-light="淺色"
+    data-i18n-dark="深色"
+    data-i18n-contrast="對比度"
+    data-i18n-lessContrast="低對比"
+    data-i18n-moreContrast="高對比"
+    data-i18n-defaultContrast="預設對比"
+    data-i18n-colorPalette="調色盤"
+    data-i18n-defaultColor="預設顏色"
+    data-i18n-deuteranopia="綠色弱 (Deuteranopia)"
+    data-i18n-protanopia="紅色弱 (Protanopia)"
+    data-i18n-tritanopia="藍色弱 (Tritanopia)"
+    data-i18n-monochrome="黑白模式"
+    data-i18n-fontSize="字體大小"
+    data-i18n-baselineStretch="基準線延伸"
+    data-i18n-OpenDyslexic="使用 OpenDyslexic 易讀字體"
+    data-i18n-menuControls="輔助功能選單控制"
+    data-i18n-save="儲存"
+    data-i18n-reset="重置"
+    data-i18n-close="關閉"
+    data-i18n-bionRead="仿生閱讀模式 (BionRead)"
+    data-i18n-focusMode="專注模式"
+    data-i18n-noLocalStorage="您的瀏覽器不支援 LocalStorage，設定將無法儲存。">
+</details>
+
+
+    <div id="useBionRead" class="sri"></div>
+    <!-- [top] bypass block -->
+    <nav aria-label="跳過">
+        <a id="to-top" class="srm" href="#top" title="回到頂部" accesskey="c" aria-keyshortcuts="c" aria-label="回到頂部">
+            <span class="t srt">回到頂部</span>
+            <kbd class="key" aria-hidden="true" data-key="c"></kbd>
+        </a>
+    </nav>
+</footer>
+    <div id="background-body" role="presentation"></div>
+</body>
+</html>

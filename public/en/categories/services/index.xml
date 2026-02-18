@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+    <title>Public Resources on Bobo Law Firm</title>
+    <link>http://localhost:1313/en/categories/services/</link>
+    <description>Recent Posts in Public Resources on Bobo Law Firm</description>
+    <generator>Hugo 0.155.3</generator>
+    <language>en-us</language>
+    <managingEditor>email@example.com (Author Name)</managingEditor>
+    <webMaster>email@example.com (Author Name)</webMaster>
+    <lastBuildDate>Wed, 18 Feb 2026 16:36:31 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/categories/services/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/categories/services/index.xml" hreflang="zh-tw" rel="alternate" type="application/rss&#43;xml" />
+        
+    <item>
+      <title>Download Common Legal Templates</title>
+      <link>http://localhost:1313/en/categories/services/resource-download/</link>
+      <pubDate>Mon, 16 Feb 2026 00:00:00 +0000</pubDate>
+      <author>email@example.com (Author Name)</author>
+      <dc:creator>A-Bo-Bo Attorney at Law</dc:creator>
+      <guid>http://localhost:1313/en/categories/services/resource-download/</guid>
+      <description>A workman must first sharpen his tools if he is to do his work well. Our firm has compiled common legal document templates, available for free download.</description>
+      <content:encoded>&lt;p&gt;We understand that many individuals wish to attempt handling simple legal matters on their own first. The following templates are provided for your reference:&lt;/p&gt;&#xA;&lt;h3 id=&#34;-formal-demand-letters-legal-notices&#34;&gt;📁 Formal Demand Letters (Legal Notices)&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/downloads/debt-notice.docx&#34;&gt;Demand Letter for Debt Repayment (.docx)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/downloads/lease-end.docx&#34;&gt;Notice of Non-Renewal upon Lease Expiration (.docx)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;-contracts-and-agreements&#34;&gt;📁 Contracts and Agreements&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/downloads/car-accident-settlement.pdf&#34;&gt;Standard Settlement Agreement for Car Accidents (.pdf)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/downloads/prenup-sample.pdf&#34;&gt;Prenuptial Agreement Reference Template (.pdf)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Disclaimer:&lt;/strong&gt; These templates are for reference only. For specific cases, it is still highly recommended to consult with a lawyer before signing any documents.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;</content:encoded>
+      <category>Public Resources</category>
+      <enclosure url="https://images.unsplash.com/photo-1562240020-ce31ccb0fa7d?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80" length="0" type="image/jpeg" />
+    </item>
+  </channel>
+</rss>

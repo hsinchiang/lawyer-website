@@ -1,0 +1,17 @@
+[[main]]
+  name = "關於律師"
+  identifier = "about"
+  url = "/about/"
+  weight = 1
+
+[[main]]
+  name = "服務項目"
+  identifier = "services"
+  url = "/services/"
+  weight = 2
+
+[[main]]
+  name = "聯絡我們"
+  identifier = "contact"
+  url = "/contact/"
+  weight = 3

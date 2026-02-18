@@ -1,0 +1,103 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: "static/images"
+public_folder: "/images"
+
+locale: "zh_Hant"
+
+# 👇 這裡設定全站預設的檔名規則 (純時間，不含標題)
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "-"
+
+collections:
+  # ==========================================
+  # 🟢 中文區 (Chinese Content)
+  # ==========================================
+  
+  # 1. 法律專欄 (中文)
+  - name: "blogs_zh"
+    label: "法律專欄 (中文)"
+    folder: "content/zh-tw/categories/blogs"
+    create: true
+    # 👇 檔名規則：年-月-日-時-分 (例如: 2026-02-18-1630.md)
+    slug: "{{year}}-{{month}}-{{day}}-{{hour}}-{{minute}}"
+    fields: &blog_fields
+      - {label: "標題", name: "title", widget: "string"}
+      - {label: "網址代稱 (Slug)", name: "translationKey", widget: "string", required: false, hint: "建議填寫英文，中英文版填一樣的 Slug 才能對應"}
+      - {label: "發布日期", name: "date", widget: "datetime"}
+      - {label: "最後修改日期", name: "lastmod", widget: "datetime", required: false}
+      - {label: "作者", name: "author", widget: "list", default: ["小波波 律師"]}
+      - {label: "封面圖片", name: "image", widget: "image", required: false}
+      - {label: "摘要", name: "description", widget: "text"}
+      - {label: "內文", name: "body", widget: "markdown"}
+      - {label: "分類", name: "categories", widget: "hidden", default: ["blogs"]}
+      - {label: "標籤", name: "tags", widget: "list"}
+      - {label: "文章類型", name: "type", widget: "hidden", default: "post"}
+      - {label: "草稿", name: "draft", widget: "boolean", default: false}
+      - {label: "咖啡杯數", name: "coffee", widget: "number", default: 1}
+
+  # 2. 成功案例 (中文)
+  - name: "cases_zh"
+    label: "成功案例 (中文)"
+    folder: "content/zh-tw/categories/cases"
+    create: true
+    # 👇 檔名規則：年-月-日-時-分
+    slug: "{{year}}-{{month}}-{{day}}-{{hour}}-{{minute}}"
+    fields: &case_fields
+      - {label: "標題", name: "title", widget: "string"}
+      - {label: "網址代稱 (Slug)", name: "translationKey", widget: "string", required: false}
+      - {label: "發布日期", name: "date", widget: "datetime"}
+      - {label: "最後修改日期", name: "lastmod", widget: "datetime", required: false}
+      - {label: "作者", name: "author", widget: "list", default: ["小波波 律師"]}
+      - {label: "封面圖片", name: "image", widget: "image", required: false}
+      - {label: "摘要", name: "description", widget: "text"}
+      - {label: "內文", name: "body", widget: "markdown"}
+      - {label: "分類", name: "categories", widget: "hidden", default: ["cases"]}
+      - {label: "標籤", name: "tags", widget: "list"}
+      - {label: "文章類型", name: "type", widget: "hidden", default: "post"}
+      - {label: "草稿", name: "draft", widget: "boolean", default: false}
+      - {label: "咖啡杯數", name: "coffee", widget: "number", default: 1}
+
+  # 3. 頁尾設定 (中文)
+  - name: "footer_zh"
+    label: "頁尾設定 (中文)"
+    files:
+      - name: "footer_content"
+        label: "頁尾內容"
+        file: "content/zh-tw/footer.md"
+        fields:
+          - {label: "內容 (HTML/Markdown)", name: "body", widget: "markdown"}
+
+  # ==========================================
+  # 🔵 英文區 (English Content)
+  # ==========================================
+
+  # 4. 法律專欄 (英文)
+  - name: "blogs_en"
+    label: "Legal Blogs (English)"
+    folder: "content/en/categories/blogs"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{hour}}-{{minute}}" # 👈 同樣套用時間檔名
+    fields: *blog_fields
+
+  # 5. 成功案例 (英文)
+  - name: "cases_en"
+    label: "Success Stories (English)"
+    folder: "content/en/categories/cases"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{hour}}-{{minute}}" # 👈 同樣套用時間檔名
+    fields: *case_fields
+
+  # 6. 頁尾設定 (英文)
+  - name: "footer_en"
+    label: "Footer Settings (English)"
+    files:
+      - name: "footer_content"
+        label: "Footer Content"
+        file: "content/en/footer.md"
+        fields:
+          - {label: "Content", name: "body", widget: "markdown"}

@@ -1,0 +1,256 @@
+# 小波波律師事務所 - 繁體中文語系設定
+# 檔案路徑: i18n/zh-tw.toml
+
+[404PageNotFound]
+    other = "找不到頁面"
+[404Alert]
+    other = "此頁面已自動導向"
+[404ReturnHome]
+    other = "返回首頁"
+[accessibility]
+    other = "輔助功能"
+[accessTime]
+    other = "最後訪問時間"
+[allPosts]
+    other = "所有文章"
+[appearance]
+    other = "外觀設定"
+[articles]
+    one = "文章"
+    other = "文章"
+[audio]
+    other = "音訊"
+[author]
+    one = "作者"
+    other = "作者"
+[back]
+    other = "返回"
+[baselineStretch]
+    other = "基準線延伸"
+[bionRead]
+    other = "仿生閱讀模式 (BionRead)"
+[breadcrumb]
+    other = "目前位置"
+[buildTime]
+    other = "頁面生成時間"
+[bypass]
+    other = "跳過"
+[categories]
+    one = "文章分類"
+    other = "文章分類"
+[close]
+    other = "關閉"
+[coffeeStat]
+    other = "咖啡統計"
+[coffeeCount]
+    other = "由 ❤️ 與 "
+[coffeeCountPost]
+    other = " 杯咖啡驅動製作"
+[colophon]
+    other = "出版資訊"
+[colorPalette]
+    other = "調色盤"
+[colorSettings]
+    other = "色彩設定"
+[comments]
+    other = "討論區"
+[contrast]
+    other = "對比度"
+[contrib]
+    other = "貢獻"
+[contribAskReader]
+    other = "喜歡這篇文章嗎？"
+[contribAskReaderResponse]
+    other = "太棒了！"
+[contribAskReaderToContribute]
+    one = "您可以透過以下方式支持我："
+    other = "您可以透過以下方式支持我們："
+[contribCoffeeStat]
+    other = "您知道嗎？"
+[contribCoffeeStatPost]
+    one = "幫助我完成了這篇文章"
+    other = "幫助我們完成了這篇文章"
+[copy]
+    other = "複製網址"
+[copying]
+    other = "複製中..."
+[ctaComments]
+    other = "參與討論"
+[cup]
+    one = "杯咖啡"
+    other = "杯咖啡"
+[currentLang]
+    other = "目前語言為"
+[dark]
+    other = "深色"
+[darkMode]
+    other = "深色模式"
+[defaultColor]
+    other = "預設顏色"
+[defaultContrast]
+    other = "預設對比"
+[deuteranopia]
+    other = "綠色弱 (Deuteranopia)"
+[discover]
+    other = "探索主題"
+[editedBy]
+    other = "編輯者"
+[email]
+    other = "電子郵件"
+[featuredImg]
+    other = "封面圖片"
+[fediverseBluesky]
+    other = "透過 Bluesky 回覆"
+[fediverseErr]
+    other = "載入留言時發生錯誤"
+[fediverseIsLoading]
+    other = "正在從 Fediverse 載入留言"
+[fediverseReplies]
+    one = "回覆"
+    other = "回覆"
+[fediverseReblogs]
+    one = "轉發"
+    other = "轉發"
+[fediverseFavourites]
+    one = "收藏"
+    other = "收藏"
+[focusMode]
+    other = "專注模式"
+[followRSS]
+    other = "訂閱 RSS"
+[fontSize]
+    other = "字體大小"
+[home]
+    other = "首頁"
+[ifNoAudioSupport]
+    other = "您的瀏覽器不支援音訊播放。"
+[in]
+    other = "分類於"
+[inNewTab]
+    other = "在新分頁開啟"
+[keepInTouch]
+    other = "保持聯絡"
+[lessContrast]
+    other = "低對比"
+[light]
+    other = "淺色"
+[link]
+    one = "連結"
+    other = "連結"
+[main]
+    other = "主選單"
+[marginpar]
+    other = "補充註解"
+[menuControls]
+    other = "輔助功能選單控制"
+[modified]
+    other = "最後修改於"
+[monochrome]
+    other = "黑白模式"
+[more]
+    other = "更多選單"
+[moreContrast]
+    other = "高對比"
+[nav]
+    other = "導覽"
+[networkGraph]
+    other = "內容關聯圖"
+[next]
+    other = "下一頁"
+[noArticle]
+    other = "尚無文章。"
+[noArticlePost]
+    other = "看來我們的律師正在忙著開庭... 請稍候，我們很快就會發布新內容！"
+[noComment]
+    other = "目前沒有留言。"
+[noGiscus]
+    other = "Giscus 需要啟用 Javascript 與 LocalStorage 才能運作。"
+[noScript]
+    other = "噢... 您的瀏覽器禁用了 Javascript！"
+[noLocalStorage]
+    other = "您的瀏覽器不支援 LocalStorage，設定將無法儲存。"
+[note]
+    other = "筆記"
+[on]
+    other = "發布於"
+[OpenDyslexic]
+    other = "使用 OpenDyslexic 易讀字體"
+[optimizeSR]
+    other = "螢幕閱讀器優化"
+[optimizeSRDesc]
+    other = "針對使用指向設備的螢幕閱讀器使用者進行顯示優化。"
+[pages]
+    one = "頁面"
+    other = "頁面"
+[pagination]
+    other = "分頁導覽"
+[posts]
+    one = "文章"
+    other = "文章"
+[postsBy]
+    other = "作者"
+[postsOn]
+    other = "分類於"
+[poweredBy]
+    other = "技術支援"
+[prev]
+    other = "上一頁"
+[print]
+    other = "列印"
+[protanopia]
+    other = "紅色弱 (Protanopia)"
+[published]
+    other = "發布時間"
+[readingTime]
+    other = "分鐘閱讀"
+[recent]
+    other = "最新文章"
+[redactionHistory]
+    other = "修訂紀錄"
+[redactionNotes]
+    other = "資訊可能會隨法律更新而變動，我們會保持內容的準確性。"
+[related]
+    other = "您可能感興趣的文章"
+[reset]
+    other = "重置"
+[reviewedBy]
+    other = "審核者"
+[save]
+    other = "儲存"
+[search]
+    other = "搜尋"
+[seeAll]
+    other = "查看全部"
+[seeMore]
+    other = "探索更多主題"
+[section]
+    other = "區塊"
+[selectLang]
+    other = "切換語言"
+[series]
+    other = "專題系列"
+[share]
+    other = "分享"
+[shareOn]
+    other = "分享至"
+[slide]
+    one = "投影片"
+    other = "投影片"
+[stage]
+    one = "階段"
+    other = "階段"
+[switchLangTo]
+    other = "將語言切換至"
+[TableOfContents]
+    other = "目錄"
+[tags]
+    one = "標籤"
+    other = "標籤"
+[toContent]
+    other = "跳至主內容"
+[toTop]
+    other = "回到頂部"
+[top-nav]
+    other = "頂部"
+[tritanopia]
+    other = "藍色弱 (Tritanopia)"
