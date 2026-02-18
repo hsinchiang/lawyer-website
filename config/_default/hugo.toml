@@ -1,5 +1,5 @@
 ## Base URL for the site
-baseURL = 'https://lawyerbobo.netlify.app/'
+baseURL = 'https://hsinchiang.github.io/lawyer-website/'
 ## Site title
 title = '小波波律師事務所 | 專業法律諮詢'
 ## Use hugo-brewm theme
