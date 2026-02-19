@@ -234,7 +234,7 @@ enableRobotsTXT = true
         ## Enable twitter and opengraph social cards (same .params.extMeta setting)
         enable = true
         ## Default social card image
-        images = "https://hsinchiang.github.io/images/socialCard" ## recommended resolution: 1200 x 630px
+        images = "https://hsinchiang.github.io/images/socialCard.jpg" ## recommended resolution: 1200 x 630px
 
         ## Enable Twitter cards
         # twitter = true
